@@ -1,6 +1,6 @@
 ﻿document.getElementById('submit-button').addEventListener('click', function() {
     var answer = document.getElementById('answer-input').value.trim().toLowerCase();
-    var correctAnswer = '가성민'; // 여기에서 정답을 설정하세요
+    var correctAnswer = '따봉성민'; // 여기에서 정답을 설정하세요
 
     if (answer === correctAnswer) {
         document.getElementById('result').textContent = '정답입니다!';
